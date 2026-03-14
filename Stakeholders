@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Stakeholder Directory</title>
+
+<style>
+body{
+font-family: Arial;
+margin:40px;
+}
+
+table{
+border-collapse: collapse;
+width:100%;
+}
+
+th, td{
+border:1px solid #ddd;
+padding:8px;
+}
+
+th{
+background:#f4f4f4;
+}
+
+input{
+margin-bottom:20px;
+padding:8px;
+width:300px;
+}
+</style>
+
+</head>
+
+<body>
+
+<h2>Stakeholder Directory</h2>
+
+<input type="text" id="searchInput" placeholder="Search stakeholders...">
+
+<table id="stakeholderTable">
+
+<thead>
+<tr>
+<th>Name</th>
+<th>Country</th>
+<th>Designation</th>
+<th>Email</th>
+<th>LinkedIn</th>
+</tr>
+</thead>
+
+<tbody id="tableBody">
+</tbody>
+
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>
